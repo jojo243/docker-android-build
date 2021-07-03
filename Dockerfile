@@ -22,5 +22,3 @@ RUN   mkdir -p /home/.android/ && \
 USER  ${user}
 
 COPY  entrypoint.sh .
-
-ENTRYPOINT [ "/entrypoint.sh" ]
